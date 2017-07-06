@@ -51,7 +51,12 @@ npm install hexo-cli -g
 npm install
 //进入文件夹
 hexo init
-hexo g
+```
+//hexo初始化之后，使用的默认主题；可以使用 git clone xxx  theme/xx  将需要的主题下载到themes文件夹
+//然后切换到目标文件夹 ，可以使用git命令【注意一定要打开clone的目标文件夹
+//对于写得文章，同第二步
+```
+git clone  https://github.com/gongziyayu/gumoxiang.git  theme/yilia
 ```
 
 5. nginx的配置
